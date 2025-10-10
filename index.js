@@ -5,7 +5,7 @@ const app = express();
 
 // 👇 Укажи свои данные
 const userId = "403395020";             // твой id ВК
-const token = "vk1.a.kfAnnzMNcESHiWNtcsn5vOlrZ92BVzPUAq_kH9JYlQF4DKEZxFYqPbNdrYhElw8OQEbRSdkfe3EfuxYq3lbeeyeFpLd56wd0-88TYvF2BP2tFqCJKsuKQM7LVfpytd1zv84LR6xMIZqCLvN4HNncxXy8IbgWCRNU8okKIAbGdJqQRCcWB2b-0jJy7VNwdn1LGPHKAkB4pSOzHdJAcE4mpg";        // вставь сюда актуальный токен
+const token = "vk1.a.ZPP5U4HizUMKNrzxRKgzynP9dOBtC64GJVNs3E7dYynDnBSH0rCQvh7_WzYiop-IOEkE8GlPKSEfV6c9MB4pzk2AsPefSvcCk3WcEWy0TKDx5J60lVbXeDVI7XcvZQxcv-Ov4a1C0mipUNDIDOtH7ZN913B5hBZG17KMQ-vfo3lr12_3YaOa5Tk42UkxuoOqkXbGKXEKPphXDi-VNfV7Vg";        // вставь сюда актуальный токен
 
 app.get("/", async (req, res) => {
   try {
@@ -48,3 +48,4 @@ app.get("/", async (req, res) => {
 
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`✅ Порт ${PORT}`));
+
