@@ -2,8 +2,8 @@ import express from "express";
 import fetch from "node-fetch";
 
 const app = express();
-const token = "vk1.a.ZPP5U4HizUMKNrzxRKgzynP9dOBtC64GJVNs3E7dYynDnBSH0rCQvh7_WzYiop-IOEkE8GlPKSEfV6c9MB4pzk2AsPefSvcCk3WcEWy0TKDx5J60lVbXeDVI7XcvZQxcv-Ov4a1C0mipUNDIDOtH7ZN913B5hBZG17KMQ-vfo3lr12_3YaOa5Tk42UkxuoOqkXbGKXEKPphXDi-VNfV7Vg";
-const userId = "403395020";
+const token = "vk1.a.V0D5M--m_a-rx1iaSkhunIfL9wYZUJj7EPjzUZ_qOuiAuzUvoCU2nRbio8v2bNFe_58jzkIpRsK1ucA_-hZV95zZPTK46aW9BBvVgD8yFXEzMwmfaYnVmFyaf0SuS9EsFn9oiqN9lwYfHzfh73lK6Ld1sTj-5SNLCvBwXOad0uvmZWKyPWmr7i6xbAkxV0u1wGT4BnuGPmdlt8L5PmVAcA";
+const userId = "347796133";
 
 app.get("/", async (req, res) => {
   try {
@@ -29,3 +29,4 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(3000, () => console.log("✅ Сервер запущен на порту 3000"));
+
