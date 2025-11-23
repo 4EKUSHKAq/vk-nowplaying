@@ -20,7 +20,7 @@ app.get("/", async (req, res) => {
     } else if (user.status) {
       return res.send(`💬 ${user.status}`);
     } else {
-      return res.send("🚫 Музыка не играет, или играет другого источника!");
+      return res.send("🚫 Музыка не играет, или играет из другого источника!");
     }
   } catch (e) {
     console.error(e);
@@ -29,6 +29,7 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(3000, () => console.log("✅ Сервер запущен на порту 3000"));
+
 
 
 
