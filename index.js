@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
     }
   } catch (e) {
     console.error(e);
-    res.send("⚠️ Ошибка при получении трека");
+    res.send("⚠️ Проводим тех. работы NotLikeThis ");
   }
 });
 
