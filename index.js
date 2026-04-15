@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
     }
   } catch (e) {
     console.error(e);
-    res.send("⚠️ Проводим технические работы NotLikeThis ");
+    res.send("⚠️ Проводим технические работы NotLikeThis");
   }
 });
 
