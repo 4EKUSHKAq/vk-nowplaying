@@ -88,3 +88,5 @@ https://vk-nowplaying.onrender.com/
 ---
 
 **Автор:** [4EKUSHKAq](https://github.com/4EKUSHKAq)
+### Лицензия
+[MIT License](https://github.com/4EKUSHKAq/vk-nowplaying/blob/45996232b2a2cef8b381a779cbf66359efd27371/LICENSE)
