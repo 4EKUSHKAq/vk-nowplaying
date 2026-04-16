@@ -2,10 +2,10 @@
   "name": "vk-nowplaying",
   "version": "1.0.0",
   "description": "VK now playing for StreamElements",
-  "main": "src/app.js",
-  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+  "start": "node app.js"
+}
   },
   "dependencies": {
     "express": "^4.18.2",
