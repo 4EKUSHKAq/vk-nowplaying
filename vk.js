@@ -1,10 +1,15 @@
 import fetch from "node-fetch";
+import { getCache, setCache, isCacheValid } from "./cache.js";
 
 const token = process.env.VK_TOKEN?.trim();
 const userId = (process.env.VK_USER_ID || process.env.VK_ID || "").trim();
 
 export async function getNowPlaying() {
   try {
+    if (isCacheValid()) {
+      return getCache().text;
+    }
+
     if (!token || !userId) {
       return "⚠️ Не заданы VK_TOKEN/VK_USER_ID";
     }
@@ -33,14 +38,20 @@ export async function getNowPlaying() {
 
     if (user.status_audio?.artist && user.status_audio?.title) {
       const { artist, title } = user.status_audio;
-      return `🎧 ${artist} — ${title}`;
+      const text = `🎧 ${artist} — ${title}`;
+      setCache(text);
+      return text;
     }
 
     if (user.status) {
-      return `💬 ${user.status}`;
+      const text = `💬 ${user.status}`;
+      setCache(text);
+      return text;
     }
 
-    return "🔇 Ничего не играет";
+    const text = "🔇 Ничего не играет";
+    setCache(text);
+    return text;
   } catch (e) {
     console.error(e);
     return "⚠️ Ошибка VK";
