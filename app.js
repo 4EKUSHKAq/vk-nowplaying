@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 import { getNowPlaying } from "./vk.js";
 
