@@ -12,8 +12,10 @@ export async function getNowPlaying() {
     const user = data.response?.[0];
 
     if (user?.status_audio) {
-      return `🎧 ${user.status_audio.artist} — ${user.status_audio.title}`;
-    } else if (user?.status) {
+  const { artist, title } = user.status_audio;
+  return `🎧 ${artist} — ${title}`;
+}
+    else if (user?.status) {
       return `💬 ${user.status}`;
     } else {
       return `🔇 Ничего не играет`;
