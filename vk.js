@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import { getCache, setCache, isCacheValid } from "./cache.js";
 
 const token = process.env.VK_TOKEN?.trim();
-const userId = (process.env.VK_USER_ID || process.env.VK_ID || "").trim();
+const userId = process.env.VK_USER_ID?.trim();
 
 export async function getNowPlaying() {
   try {
