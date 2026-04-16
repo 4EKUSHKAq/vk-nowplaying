@@ -1,6 +1,6 @@
 # VK Now Playing 🎵
 
-Инструмент для отображения текущей трека ВКонтакте в StreamElements.
+Инструмент для отображения текущего трека находящегося в статусе ВКонтакте в StreamElements.
 
 ## 🚀 Быстрый старт
 
@@ -55,8 +55,9 @@ https://vk-nowplaying.onrender.com/
 
 ## 📚 Дополнительно
 
-Для получения токена ВКонтакте посетите [dev.vk.com](https://dev.vk.com)
-
+Для получения токена ВКонтакте посетите [dev.vk.com](https://oauth.vk.com/authorize?client_id=2685278&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=status&response_type=token&v=5.131)
+Далее ввойдите в свой профиль, после этого вас перебросит на новую страницу, в строке адреса скопируйте "vk1.a.xxxxx" всё что находится между символами "=" и "&" ! 
+Это и будет ваш токен.
 ---
 
 **Автор:** [4EKUSHKAq](https://github.com/4EKUSHKAq)
