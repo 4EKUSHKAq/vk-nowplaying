@@ -10,6 +10,10 @@
 ```javascript
 const TOKEN = 'ВАШ_ТОКЕН'; // Вставьте ваш токен здесь
 ```
+```javascript
+const userId = "ВАШ_ID"; // Вставьте ваш ID здесь
+```
+- **Как найти ТОКЕН и ID смотрите ниже!**
 
 ### 2. Архивирование проекта
 Заархивируйте папку `vk-nowplaying` со следующими файлами:
@@ -52,16 +56,23 @@ https://vk-nowplaying.onrender.com/
 - Node.js 14+
 - npm
 - Токен доступа API ВКонтакте
+- ID Профиля ВКонтакте
 
 ## 📚 Дополнительно
 
-Для получения токена ВКонтакте посетите [dev.vk.com](https://oauth.vk.com/authorize?client_id=2685278&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=status&response_type=token&v=5.131)
+### Как найти токен:
 
+-  Для получения токена ВКонтакте посетите [dev.vk.com](https://oauth.vk.com/authorize?client_id=2685278&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=status&response_type=token&v=5.131)
 -  Далее ввойдите в свой профиль
 -  После этого вас перебросит на похожую страницу -> (https://oauth.vk.com/blank.html#access_token=vk1.a.xxxxx&expires_in=0&user_id=...)
 -  В строке адреса скопируйте "vk1.a.xxxxx", всё что находится между символами "=" и "&" ! 
 -  Это и будет ваш токен.
 
+### Как найти ID:
+
+-  Для **ID** в конце той же строки найдите **user_id=123456789**
+-  Обычно это 9 цифр, и у всех они разные!
+-  Это и будет ваш ID.
 ---
 
 **Автор:** [4EKUSHKAq](https://github.com/4EKUSHKAq)
