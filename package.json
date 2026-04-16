@@ -1,13 +1,15 @@
 {
   "name": "vk-nowplaying",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "VK now playing for StreamElements",
+  "main": "src/app.js",
   "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
-  },
-  "scripts": {
-    "start": "node index.js"
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
   }
 }
