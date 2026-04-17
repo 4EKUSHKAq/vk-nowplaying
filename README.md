@@ -43,9 +43,10 @@
 В настройках сервиса Render откройте раздел **Environment** и добавьте:
 
 ```text
-VK_TOKEN=ВАШ_ТОКЕН
-VK_USER_ID=ВАШ_ID
+VK_TOKEN = ВАШ_ТОКЕН
+VK_USER_ID = ВАШ_ID
 ```
+<img width="1548" height="456" alt="Screenshot_1" src="https://github.com/user-attachments/assets/482a1895-727a-4908-b718-b5ad444779e9" />
 
 - `VK_TOKEN` — ваш токен доступа ВКонтакте
 - `VK_USER_ID` — ваш ID профиля ВКонтакте
@@ -95,10 +96,10 @@ https://ваш-сервис.onrender.com/
 
 ### Как найти токен:
 
--  Для получения токена ВКонтакте посетите [dev.vk.com](https://oauth.vk.com/authorize?client_id=2685278&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=status&response_type=token&v=5.131)
--  Далее ввойдите в свой профиль
--  После этого вас перебросит на похожую страницу -> (https://oauth.vk.com/blank.html#access_token=vk1.a.xxxxx&expires_in=0&user_id=...)
--  В строке адреса скопируйте "vk1.a.xxxxx", всё что находится между символами "=" и "&" ! 
+-  Для получения токена ВКонтакте посетите [vkhost.github.io](https://vkhost.github.io/)
+-  Далее из списка выберете **Kate Mobile**
+-  После этого вас перебросит на страницу авторизации, ввойдите в тот аккаунт, с которого будет включаться музыка
+-  После авторизации откроется страница, в адресной строке которой будет токен вида - "vk1.a.xxxxx", скопируйте всё что находится между символами "=" и "&" ! 
 -  Это и будет ваш токен.
 
 ### Как найти ID:
