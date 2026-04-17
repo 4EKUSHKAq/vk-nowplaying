@@ -46,7 +46,7 @@
 VK_TOKEN = ВАШ_ТОКЕН
 VK_USER_ID = ВАШ_ID
 ```
-<img width="1548" height="456" alt="Screenshot_1" src="https://github.com/user-attachments/assets/482a1895-727a-4908-b718-b5ad444779e9" />
+<img width="1300" height="400" alt="Screenshot_1" src="https://github.com/user-attachments/assets/482a1895-727a-4908-b718-b5ad444779e9" />
 
 - `VK_TOKEN` — ваш токен доступа ВКонтакте
 - `VK_USER_ID` — ваш ID профиля ВКонтакте
@@ -67,13 +67,18 @@ https://ваш-сервис.onrender.com/
 
 ### 5. Интеграция в StreamElements
 
-В StreamElements создайте новую команду, используя **свой URL из Render**:
+- #### В StreamElements создайте новую команду, используя **свой URL из Render**:
+  
+<img width="800" height="300" alt="Screenshot_2" src="https://github.com/user-attachments/assets/2c19def0-0ea7-4c30-a07b-723adc7c7bab" />
 
-```text
-!addcommand !трек $(customapi https://ваш-сервис.onrender.com/)
+- #### Если бот StreamElements уже добавлен на ваш канал, просто измените ссылку на свою и отправьте эту команду в чат:
+```
+   !addcommand !трек $(customapi https://ваш-сервис.onrender.com/)
 ```
 
+
 Теперь при вводе команды `!трек` в чате будет отображаться текущий трек! 🎶
+
 
 ## 📝 Переменные окружения
 
