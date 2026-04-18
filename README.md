@@ -83,7 +83,7 @@ https://ваш-сервис.onrender.com/
 
 - Перейдите на [UptimeRobot](https://uptimerobot.com/)
 - Создайте новый HTTP(s) Monitor
-- Укажите ссылку на ваш endpoint: https://ваш-сервис.onrender.com/ping
+- Укажите ссылку на ваш endpoint: https://ваш-сервис.onrender.com/ping (Обязательно добавить ping)
 - Установите интервал проверки, например 5 минут
 
 ## 📝 Переменные окружения
