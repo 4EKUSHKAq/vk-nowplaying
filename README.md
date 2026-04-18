@@ -69,8 +69,7 @@ https://ваш-сервис.onrender.com/
 
 - #### В StreamElements создайте новую команду, используя **свой URL из Render**:
   
-<img width="1374" height="509" alt="579857819-2c19def0-0ea7-4c30-a07b-723adc7c7bab" src="https://github.com/user-attachments/assets/908ca7c2-41dd-4fb0-b0c4-72ecbec4c24e" />
-
+<img width="1374" height="509" alt="579857819-2c19def0-0ea7-4c30-a07b-723adc7c7bab" src="https://github.com/user-attachments/assets/6217d39a-809b-4971-8bab-62c447ef4d03" />
 
 - #### Если бот StreamElements уже добавлен на ваш канал, просто измените ссылку на свою и отправьте эту команду в чат:
 ```
