@@ -49,7 +49,7 @@ export async function getNowPlaying() {
       return text;
     }
 
-    const text = "🔇 Ничего не играет";
+    const text = "🔇 Ничего не играет, или играет вне VK";
     setCache(text);
     return text;
   } catch (e) {
