@@ -2,13 +2,7 @@
 
 #### Удобный инструмент для отображения текущего трека из статуса ВКонтакте в StreamElements.
 
-> [!TIP]
->
-> ### 🎉 Поддержать меня
->
-> **USDT (TRC20)**: `TFi6v8kP1tjgLqRV9XzaYysxFhQXa4DN71`  
-> **BTC**: `bc1qwdzarwdg78k8nltkz2ntpfpmg428mmagur9u9z`  
-> **ETH**: `0xc8418F85Fc937013caACC62fE461cbA7484e069C`
+
 
 > [!CAUTION]
 > **Внимательно изучите все пункты руководства!**
