@@ -3,7 +3,8 @@ let cache = {
   time: 0
 };
 
-const CACHE_TIME = 5000;
+// Не спрашиваем VK слишком часто
+const CACHE_TIME = 30000;
 
 export function getCache() {
   return cache;
