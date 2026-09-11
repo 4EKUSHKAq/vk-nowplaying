@@ -60,7 +60,7 @@ async function fetchFromVK() {
 
   if (user.status_audio?.artist && user.status_audio?.title) {
     const { artist, title } = user.status_audio;
-    const text = `🎧DinoDance ${artist} — ${title}`;
+    const text = ` DinoDance ${artist} — ${title} DinoDance `;
     setCache(text);
     return text;
   }
